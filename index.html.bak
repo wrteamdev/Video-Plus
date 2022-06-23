@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Documentation | Video Plus</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/jquery.highlight.css" />
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/scrollbar.css" rel="stylesheet">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
+
+        <!--Sidebar-->
+        <aside id="sidebar">
+
+            <!--Toggle Button-->
+            <div class="button-container clearfix">
+                <div class="menu-toggle flaticon-menu10"></div>
+            </div>
+
+            <!--Menu Box-->
+            <div class="menu-box">
+                <!--Logo-->
+                <br>
+                <div class="logo text-right"><a href="#"><img src="images/logo.png" width="119" alt=""></a></div>
+
+                <!--Sticky Menu-->
+                <nav class="sticky-menu">
+                    <ul>
+                        <li class="current"><a href="#introduction">Introduction <span
+                                    class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#howToSetupFlutter">How to setup flutter<span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#howToRunFlutterProject">How to run flutter project <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#howToChangePackageName">How to change package name<span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#howToIntegrateFirebase">How to integrate firebase<span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#howToEnableFirebaseAuth">How to enable firebase auth <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#howToChangeDatabaseUrl">How to change database url and other backend settings <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#howToChangeAppColors">How to change application colors <span class="fa fa-arrow-right"></span></a></li>
+						   <li><a href="#howToChangeAppFont">How to change application font <span class="fa fa-arrow-right"></span></a></li>
+						      <li><a href="#howToChangeIntroSlideImages">How to change intro slider images <span class="fa fa-arrow-right"></span></a></li>
+							     <li><a href="#howToChangeDefaultProfileImages">How to change default profile images <span class="fa fa-arrow-right"></span></a></li>
+								    <li><a href="#howToChangeJsonAnimations">How to change json animations <span class="fa fa-arrow-right"></span></a></li>
+									   <li><a href="#howToConfigureInAppPurchase">How to configure in-app purchase <span class="fa fa-arrow-right"></span></a></li>
+									   <li><a href="#howToConfigureForceUpdate">How to configure force update<span class="fa fa-arrow-right"></span></a></li>
+									   <li><a href="#howToAppConstants">How to change application constants<span class="fa fa-arrow-right"></span></a></li>
+									   
+									   <li><a href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
+									    <li><a href="#rating">Your Feedback<span class="fa fa-arrow-right"></span></a></li>
+										 <li><a href="#contactus">Contact Us <span class="fa fa-arrow-right"></span></a></li>
+										  
+									  
+                    </ul>
+
+                </nav>
+
+            </div>
+        </aside>
+
+        <div id="content-section">
+            <section class="section introduction" id="introduction">
+              <div class="sec-content">
+                    <h2> Video Plus</h2>
+                      <p class="">Thank you for purchasing code. It really means a lot and It's our pleasure to serve top-notch service to you. Thank you so much for choosing<a href="https://wrteam.in/" style='color:#3c55d1' target="_blank"> WRTeam </a>. If you have trouble with the code and documentation please contact to our Support Team <a href="#support" style="color:#3c55d1">Here</a></p>
+
+                </div>
+
+            </section>
+
+            <!--HTML Structure-->
+         <section  class="section css-structure" id="howToSetupFlutter">
+                                <div class="sec-title">
+                    <span class="icon fa fa-at"></span>
+                    <h2>How to setup flutter
+			</h2>
+                </div>
+
+               
+                <div class="sec-content">
+                                <ol>
+                                    Visit flutter official website : <a href="https://docs.flutter.dev/get-started/install">https://docs.flutter.dev/get-started/install</a>
+                                      for full install guide.
+                                     <br>
+                                     If you prefer video tutorials, we recommend this playlist for the full installation process <br>
+                                     <a href="https://www.youtube.com/playlist?list=PLSzsOkUDsvdtl3Pw48-R8lcK2oYkk40cm">https://www.youtube.com/playlist?list=PLSzsOkUDsvdtl3Pw48-R8lcK2oYkk40cm</a>
+                                </ol>
+                              
+                            </section>
+
+            </section>
+
+            <section class="section css-structure" id="howToRunFlutterProject">
+                              <div class="sec-title">
+                    <span class="icon fa fa-at"></span>
+                    <h2>How to run this project
+			</h2>
+                </div>
+				  <br>
+                                <ol>
+                                    <li>
+                                        Unzip the downloaded code. After unzipping you will have Video Plus - Flutter Code zip folder.
+                                        <br> Unzip Video Plus - Flutter Code folder and open it in
+                                          Android Studio or Visual Studio Code.</li>
+                                    <li>
+                                        Open ide teminal and execute flutter pub get command.
+                                    </li>
+                                    <li>
+                                        If you are running this app for ios then run these following commands in terminal.
+                                        <br>cd ios
+                                        <br> pod install
+                                        <br> cd ..
+                                    </li>
+                                    <li>
+                                        open terminal and execute flutter run
+                                    </li>
+                                </ol>					
+                                <hr> 
+                            </section>
+							
+							 <section class="section css-structure" id="howToChangePackageName">
+							  <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                    <h2>How to change package name	</h2>
+					</div>
+				  <br>
+                                <ol>
+                                    <li>
+                                        Change package name for android app <br>
+                                        Execute this command in your terminal<br> flutter pub run change_app_package_name:main your_new_package_name
+                                        <img src="images/app/changePackageName.png" alt="Elite Quiz">
+                                    </li>
+                                    <li>
+                                        Change package name for ios app <br>
+ 
+                                        Open ios folder of this project in xcode. Go Select Runner->Targets->General->Identity and enter new package name in Build Identifier.
+                                        <br>
+                                        <img src="images/app/changePackageName1.png" alt="Elite Quiz">
+                                    </li>
+                                    <li>
+                                        Go to lib/utils/constants.dart and update package.
+                                        <img src="images/app/changePackageName2.png" alt="Elite Quiz">
+                                    </li>
+                                </ol>
+                                <hr> 
+                            </section>
+							
+							 <section class="section css-structure" id="howToIntegrateFirebase">
+                               <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                    <h2>How to integrate firebase	</h2>
+					</div>
+					 <ol>
+                                    Visit firebase  website : <a href="https://firebase.flutter.dev/docs/cli">https://firebase.flutter.dev/docs/cli</a>
+                                      for full integration guide.
+                                     <br>
+                                    
+                                </ol>
+					</div>
+				  <br>
+								
+							   </section>
+							
+							
+                            <section  class="section css-structure"   id="howToEnableFirebaseAuth">
+							    <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to enable firebase auth</h2>
+								</div>
+				  <br>
+                                <ol>
+                                    <li>Go to firebase project.Click on authentication menu and goto sign-in method. Enable all the authentication method mention in below image
+                                        <img src="images/app/addFirebaseAuth.jpg" alt="Elite Quiz" />
+                                    
+                                    </li>
+                                    <li>If your are using google sign-in you need to enable OAuth APIs that you want to use using
+                                        https://console.developers.google.com/ .Enable people api and make sure you've filled out all required fields in the console for OAuth consent screen.
+                                        Otherwise, you may encounter APIException errors.
+                                    </li>
+
+                                    <li> Please add sha-256 key as shown in below image. Go to project settings -> your apps -> android apps
+                                         
+                                        <img src="images/app/auth-1.png" alt="Elite Quiz" />
+                                    </li>
+
+                                    <li> Please add support email as shown in below image. Go to project settings -> general -> public settings 
+
+                                         
+                                        <img src="images/app/auth-2.png" alt="Elite Quiz" />
+                                    </li>
+
+                                    <li> Please add support email as shown in below image. Go to project settings -> general -> public settings 
+
+                                         
+                                        <img src="images/app/auth-2.png" alt="Elite Quiz" />
+                                    </li>
+
+                                    <li>
+                                        If you are using phone auth in ios then follow these steps
+
+                                        <br>
+                                        Go to ios/Runner/GoogleService-Info.plist and copy REVERSED_CLIENT_ID 
+                                        <img src="images/app/addPhoneAuth.png" alt="Elite Quiz" />
+                                        <br>
+                                        Paste in ios/Runner/Info.plist as shown in below image
+                                        <img src="images/app/addPhoneAuth2.png" alt="Elite Quiz" />
+
+                                    </li>
+                                </ol>
+                                <hr> 
+                            </section>
+
+   <section    class="section css-structure"  id="howToChangeAppName">
+      <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change application name</h2>
+								</div>
+				  <br>
+                                <ol>
+                                    <li>Change application name for your android application. Go to android/app/src/main/AndroidManifest.xml and change name
+                                        <img src="images/app/appName2.jpg" alt="Elite Quiz" />
+                                    </li> 
+                                    <li>Change application name for your ios application. Go to ios/Runner/Info.plist and change name
+                                        <img src="images/app/appName3.jpg" alt="Elite Quiz" />
+                                    </li>                                    
+                                </ol>
+                                <hr> 
+                            </section>
+  <section class="section css-structure"  id="howToChangeAppVersion">
+  <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change application version and app launcher icon</h2>
+								</div>
+				  <br>
+                                <ol>
+                                    <li>
+                                        go to pubspec.yaml EX.Update version:A.B.C+X in pubspec.yaml.
+                                    </li>   
+                                    <li>Do not forget to execute flutter packages get, flutter build or flutter run after this step</li>   
+                                </ol>
+                                <img src="images/app/changeAppVersion.jpg" alt="Elite Quiz" />
+                                <hr> 
+                            </section>
+							
+							
+							  <section  class="section css-structure" id="howToChangeAppLogo">
+							    <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change application logo</h2>
+									</div>
+				             <br>
+                                <ol>
+                                    <li>For Android For Android, open android > app > src > main > res and add here your logo according to device screen size                
+                                        <img src="images/app/androidAppIcon.png" alt="Elite Quiz" />  
+                                    </li> 
+                                    <li>For IOS  open ios > Runner > Assets.xcassets > AppIcon.appiconset here and add your logo according to diffrent size.
+                                        <img src="images/app/iosAppIcon.png" alt="Elite Quiz" />
+                                    </li> 
+                                </ol>
+                                <hr> 
+                            </section>
+							
+							
+							  <section class="section css-structure"  id="howToChangeDatabaseUrl">
+							   <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change database url and other backend settings</h2>
+									</div>
+			            	  <br>
+                                <ol>
+                                    <li>
+                                        Go to lib/utils/constants.dart and make changes shown in below image
+                                        <img src="images/app/changeBaseUrlAndApiParameters.jpg" alt="Elite Quiz" />
+                                    </li>   
+                                </ol>
+                                <hr> 
+                            </section>
+
+							   <section class="section css-structure" id="howToChangeAppColors">
+							   <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change application colors</h2>
+								</div>
+			             	  <br>
+                                <ol>    
+                                    <li>
+                                        Add your colors in lib/ui/Utils/colors.dart and do not change the color variables name
+                                        <img src="images/app/changeColors.png" alt="Elite Quiz" />
+                                    </li>   
+                                </ol>
+                                <hr> 
+                            </section>
+							
+							     <section   class="section css-structure"  id="howToChangeAppFont">
+								 <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change application font</h2>
+								</div>
+				  <br>
+                                <ol>    
+                                    <li>
+                                        Go to lib/main.dart and add your font as shown in image
+                                        <img src="images/app/changeFont.jpg" alt="Elite Quiz" />
+                                    </li>
+                                    <li>
+                                        Go to assets/google_fonts/ and add .tff files of fonts.
+                                        <img src="images/app/changeFont2.jpg" alt="Elite Quiz" />
+                                    </li>  
+                                </ol>
+                                <hr> 
+                            </section>
+							
+							  <section  class="section css-structure" id="howToChangeIntroSlideImages">
+							  <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change intro slider images</h2>
+								</div>
+				  <br>
+                                <ol>    
+                                    <li>
+                                        Go to assets > images folder and add your intro slide images.It is recommended to follow same naming convention shown in below image
+                                        <img src="images/app/introSlider.jpg" alt="Elite Quiz" />
+                                    </li> 
+                                    <li>
+                                        Go to assets > files > introSliderImages.json file and add intro slider image's name in this this file as shown in below image
+                                        <img src="images/app/introSlider2.jpg" alt="Elite Quiz" />
+                                    </li>  
+                                </ol>
+                                <hr> 
+                            </section>
+							
+							 <section  class="section css-structure" id="howToChangeDefaultProfileImages">
+							  <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change default profile images</h2>
+									</div>
+				  <br>
+                                <ol>    
+                                    <li>
+                                        Go to assets > images > profile folder and add your default profile images.It is recommended to follow same naming convention shown in below image
+                                        <img src="images/app/profilePictures.jpg" alt="Elite Quiz" />
+                                    </li>  
+                                    <li>
+                                        Go to assets > files > defaultProfileImages.json file and add default profile image's name in this this file as shown in below image
+                                        <img src="images/app/profilePictures2.jpg" alt="Elite Quiz" />
+                                    </li>   
+                                </ol>
+                                <hr> 
+                            </section>
+							
+							
+                            <section  class="section css-structure"  id="howToChangeJsonAnimations">
+							 <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to change json animations</h2>
+								</div>
+				  <br>
+                                <ol>    
+                                    <li>
+                                        Go to assets > animations folder and add json animaiton files. Make sure to use same name shown in below image
+                                        <img src="images/app/changeJsonAnimations.jpg" alt="Elite Quiz" />
+                                    </li>   
+                                </ol>
+                                <hr> 
+                            </section>
+
+                            <section class="section css-structure" id="howToConfigureInAppPurchase">
+							 <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to configure in-app purchase</h2>
+								</div>
+				  <br>
+                                <ol>    
+                                    <li>Configure in-app purchase for android applicaiton.
+                                        Upload your application in playstore and create in-app products for your applicaiton as shown in below image.
+                                        Id of in-app products (consumable product) in apple and play store must be same. 
+                                        <img src="images/app/in-app-purchase-1.png" alt="Elite Quiz" />
+                                    </li>  
+                                    <li>Configure in-app purchase for ios applicaiton.
+                                        Add capibility in your project using xcode as show in below image.
+
+                                        <img src="images/app/in-app-purchase-2.png" alt="Elite Quiz" />
+                                        <br><br>
+                                        Follow this links in order to enable in-purchase.<br>
+                                        https://help.apple.com/app-store-connect/#/devae49fb316.<br>
+                                         https://help.apple.com/app-store-connect/#/devb57be10e7.
+                                         <br>
+                                        For more help visit this https://developer.apple.com/in-app-purchase/. 
+                                        <br>
+                                        Id of in-app products (consumable product) in apple and play store must be same. 
+
+                                    </li>
+                                    <li>
+                                        Go to lib/utils/inAppPurchaseProducts.dart. 
+                                        Enter coins and in-app product's id (created previously) respective to coin as shown in image.
+                                        <img src="images/app/in-app-purchase-3.png" alt="Elite Quiz" />
+                                    </li>  
+
+                                </ol>
+                                <hr> 
+                            </section>
+                                     
+									   <section class="section css-structure"  id="howToConfigureForceUpdate">
+									    <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to configure force update</h2>
+								</div>
+				  <br>
+                                <ol>    
+                                    <li>
+                                        Go to admin panel in settings -> system configurations and enable force update as shown in image.
+                                        <br>
+                                        <img src="images/app/force-update.png" alt="Elite Quiz" />
+                                    </li> 
+                                    <li>
+                                        Go to pubspec.yaml and copy the version number of application. 
+                                        
+
+                                        <br>
+                                        <img src="images/app/force-update-2.png" alt="Elite Quiz" />
+                                    </li> 
+
+                                    <li>
+                                        Go to admin panel in settings -> system configurations and enter the version number we just copied.
+                                        
+
+                                        <br>
+                                        <img src="images/app/force-update-3.png" alt="Elite Quiz" />
+                                    </li> 
+                                    <li>
+                                        Go to admin panel in settings -> system configurations and add application url(play and app store link).
+                                        Make sure to add correct url otherwise force update will not work as expected.
+                                        
+
+                                        <br>
+                                        <img src="images/app/force-update-4.png" alt="Elite Quiz" />
+                                    </li> 
+                                    
+                                </ol>
+                                <hr> 
+                            </section>
+									 
+									  <section  class="section css-structure"  id="howToGenerateReleaseVersion">
+									    <div class="sec-title">
+                                 <span class="icon fa fa-at"></span>
+                                <h2>How to generate release version of this product</h2>
+								</div>
+				  <br>
+                                <ol>    
+                                    <li>To generate release android app-bundle and publish to playstore follow https://flutter.dev/docs/deployment/android</li>            
+                                    <li>To generate release ios apk and publish to appstore follow https://flutter.dev/docs/deployment/ios</li>
+                                    <li>Before delpoying ios apk to app store make sure you configured below setting
+                                        <br>
+                                        Go To > General > Pricing and Availability > Availability > Edit All Countries or Regions Selected & unmark China Mainland there as highlighted in attached Screenshot.
+                                        <img src="images/app/appAvailability.png" alt="Elite Quiz" />
+                                    </li>
+                                </ol>
+                                <hr> 
+                            </section>
+									 
+							 <hr class="divider">  
+
+<section id="support">
+                            <h3>Support</h3>
+                            <p>Its our pleasure to serve our service and support. please contact our support team.</p>
+                            <p>Head of Customer Support : Priyansh Parmar <a href="https://join.skype.com/invite/E228Z6F4s3gB" target="_blank" style="color:#3c55d1">Skype Name : Priyansh Parmar</a></p>
+                            <p>To help our customers, we constantly be in touch with every customer if they need any assistance regarding our product. 
+                                We offer our customers a support from  <strong> Mon – Fri 9.00am to 6.00pm IST (GMT +5.30) – We are a Team located in India – Asia.</strong></p>
+                            <p>Typically we reply our customers for all the questions and queries within 24 hours of time via comments, support forum or emails.</p>
+                        </section>
+                        <hr class="divider">  
+
+                        <section id="rating">
+                            <h3>Your Feedback</h3>
+                            <p>Dear valuable customer,
+                                Thank you very much for choosing our product.
+                                It's our pleasure to serve top-notch service to you.
+                                Please give us your honest feedback that will help us to make a more strong and reliable product by click here <a href="https://codecanyon.net/item/elite-quiz-the-flutter-quiz-app/33570423" style="color:#3c55d1" target="_blank">Rate Us</a>.
+                                Thank you very much.</p>
+                        </section>
+                        <hr class="divider">  
+
+                        <section id="contactus">
+                            <h3>Contact Us</h3>
+                            <p>WRTeam has creative and dedicated group of developers who are mastered in Apps Developments and Web Application Development with a niche in delivering quality solutions to customers across the globe.
+                                Contact us today to find out how we can help you or for freelance work.
+                            </p><p>Visit Us : <a href="https://wrteam.in/" target="_blank">https://wrteam.in</a>
+                            </p><p>Mail Us : support@wrteam.in</p>
+                            <p>Thank you very much.</p>
+                        </section>
+                        <hr class="divider">  
+
+
+							 
+            <!--Javascript-->
+            <section class="section javascript" id="javascript">
+                <div class="sec-title">
+                    <span class="icon fa fa-code"></span>
+                    <h2>Jquery and javascript</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>This theme imports three types of Javascript files.</h3>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>Custom scripts <strong>(main.js)</strong></li>
+                        <li>Some plugins</li>
+                        <br>
+                        <li><strong>jQuery</strong> is a Javascript library that greatly reduces the amount of code that
+                            you must write.</li>
+                        <li>Most of the animation in this site is carried out from the customs scripts. There are a few
+                            functions worth looking over.</li>
+                    </ul>
+                    <br>
+                    <p>In addition to the custom scripts, I have implemented few "tried and true" plugins to create the
+                        effects. This plugin is packed, so you won't need to manually edit anything in the file. The
+                        only necessary thing to know is how to call the method</p>
+                    <br />
+                    <br />
+                    <p>These are the JS files that are loaded into templates in end of the Body Section.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <!--====== TweenMax js ======-->
+    <script src="assets/js/TweenMax.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+                </pre><!-- /.code -->
+
+                </div>
+
+            </section>
+
+
+
+
+
+
+
+            <!--Sources and Credits-->
+            <section class="section tutorial" id="tutorial">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Tutorial</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+                    <h3 class="content-title">LOGO</h3><!-- /.content-title -->
+                    <br />
+                    <p>Lets start updating the template. Open index.html file and follow the steps.</p>
+                    <p>Most of the updates are same for all pages. So will explain once here.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+<div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+    <div class="appie-logo-box">
+        <a href="#">
+            <img src="assets/images/logo.png" alt="">
+        </a>
+    </div>
+</div>
+                </pre><!-- /.code -->
+
+                    <p>Replace "images/logo.png" with your logo image url source or website name .</p>
+                    <br />
+
+                    <h3 class="content-title">NAVMENU</h3><!-- /.content-title -->
+                    <br />
+                    <p>This is the basic structure.</p>
+
+                    <pre class="code" data-language="html">
+
+<!--====== APPIE HEADER PART START ======-->
+
+<header class="appie-header-area appie-sticky">
+    <div class="container">
+        <div class="header-nav-box">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
+                    <div class="appie-logo-box">
+                        <a href="#">
+                            <img src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
+                    <div class="appie-header-main-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Home <i class="fal fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="index.html">Home 1</a></li>
+                                    <li><a href="index-2.html">Home 2</a></li>
+                                    <li><a href="index-3.html">Home 3</a></li>
+                                    <li><a href="index-4.html">Home 4</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#service">Service</a>
+                            </li>
+                            <li> 
+                                <a href="#features">Feature </a>
+                            </li>
+                            <li>
+                                <a href="#testimonial">Testimonial</a>
+                            </li>
+                            <li>
+                                <a href="#">News <i class="fal fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li><a href="news.html">News Page</a></li>
+                                    <li><a href="single-news.html">Single News</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
+                    <div class="appie-btn-box text-right">
+                        <a class="login-btn" href="#"><i class="fal fa-user"></i> Login</a>
+                        <a class="main-btn ml-30" href="#">Get Started</a>
+                        <div class="toggle-btn ml-30 canvas_open d-lg-none d-block">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--====== APPIE HEADER PART ENDS ======-->
+
+</pre><!-- /.code -->
+
+                    <br />
+                    <p>Add your own menu item to that ul li item. and if you want to add dropdown menu just make a
+                        nesting ul li with class of <b>sub-menu</b></p>
+
+                    <br />
+                    <br />
+                    <h3 class="content-title">FOOTER COPYRIGHT</h3><!-- /.content-title -->
+                    <br />
+                    <pre class="code" data-language="html">
+<div class="col-lg-12">
+    <div class="footer-copyright d-flex align-items-center justify-content-between pt-35">
+        <div class="apps-download-btn">
+        <ul>
+            <li><a href="#"><i class="fab fa-apple"></i> Download for iOS</a></li>
+            <li><a class="item-2" href="#"><i class="fab fa-google-play"></i> Download for Android</a></li>
+        </ul>
+        </div>
+        <div class="copyright-text">
+            <p>Copyright © 2021 Appie. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+
+
+                </pre><!-- /.code -->
+                    <p>replace "© Copyright Appie 2021 . All right reserved." with the copyright info.</p>
+                </div>
+
+            </section>
+
+            <!--Sources and Credits-->
+            <section class="section sources-credits" id="sources-credits">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Sources and Credits</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Fonts Used int the template are google fonts, you can find theme on Google Fonts API</h3>
+
+                    <p><strong> Fonts Used are :</strong></p>
+                    <p><a target="_blank" href="https://fonts.google.com/specimen/Roboto">Roboto</a></p>
+
+                    <br>
+
+
+                    <p><strong> File Used For Animation Effects :</strong></p>
+                    <p><strong><a href="https://daneden.github.io/animate.css/" target="_blank">animate.min.css</a></strong> (in css
+                        Folder)</p>
+
+
+                    <br>
+
+                    <p><strong> Sliders Used Are :</strong></p>
+                    <p><a href="http://kenwheeler.github.io/slick/" target="_blank">slick Slider</a></p>
+
+                    <br>
+
+                    <p><strong> Plugins Used Are :</strong></p>
+                    <p><a href="http://kenwheeler.github.io/slick/" target="_blank">slick.min.js</a> (can be located in js
+                        folder)</p>
+                    <p><a href="https://github.com/bfintal/Counter-Up" target="_blank">jquery.counterup.min.js</a> (can be located in plugins
+                        folder)</p>
+                    <p><a href="http://dimsemenov.com/plugins/magnific-popup/" target="_blank">jquery.magnific-popup.min.js</a> (can be located in plugins
+                        folder)</p>
+
+                    Every Code is properly commented for Editing Ease.
+
+                </div>
+
+            </section>
+
+            <!--Support-->
+            <section class="section support" id="support">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Support</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad
+                        to help you if you have any questions relating to this theme. No guarantees, but I'll do my best
+                        to assist. If you have any queries, please feel free to contact us at Support Center.</h3>
+                    <div class="support-image">
+                        <a href="mailto:Abdur.rohman2003@gmail.com"><img src="images/customer__support.png" alt=""></a>
+                    </div><br>
+
+                    <p>Email Us at : <a href="mailto:Abdur.rohman2003@gmail.com ">Abdur.rohman2003@gmail.com </a> </p>
+
+                </div>
+
+            </section>
+
+
+            <!--Free Assetes-->
+            <section class="section custom-order" id="custom-order">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Custom Order</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <p>For any custom order (web ui design, app design, HTML template Development, WordPress Theme Development or WordPress Plugin Development) please contact us</p><br>
+                    <div class="thumb">
+                        <a href="mailto:Abdur.rohman2003@gmail.com"><img src="images/custom__order.png" alt=""></a>
+                    </div>
+                    
+
+
+
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+    </div>
+    <!--End pagewrapper-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/prism.js"></script>
+
+    <script src="js/jquery.highlight.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
