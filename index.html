@@ -57,9 +57,9 @@
                                     class="fa fa-arrow-right"></span></a>
 
                         </li>
-                        <li><a href="#dynamicLink">How to Create Dynamic Link Using Firebase for Share
+                        <!-- <li><a href="#dynamicLink">How to Create Dynamic Link Using Firebase for Share
 							product <span
-                            class="fa fa-arrow-right"></span></a>
+                            class="fa fa-arrow-right"></span></a> -->
 
                 </li>
                 <li><a href="#notification">How to set Notification <span
@@ -78,9 +78,13 @@
 
                                         <li><a href="#howToChangeDatabaseUrl">How to change database url <span
                                             class="fa fa-arrow-right"></span></a></li>          
-                                    
-                        <li><a href="#howToConfigureInAppPurchase">How to configure in-app purchase <span
+    <li><a href="#dynamicLinks">Setup Dyanamic Link <span
+                                    class="fa fa-arrow-right"></span></a></li>    
+                                      <li><a href="#addMoreLanguage">Add More Language <span
+                                    class="fa fa-arrow-right"></span></a></li>                          
+                        <li><a href="#addMoreLang">How to configure in-app purchase <span
                                     class="fa fa-arrow-right"></span></a></li>
+
 
                         <li><a href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
                     
@@ -397,7 +401,7 @@
             <hr>
         </section>
 
-        <section class="section css-structure" id="dynamicLink">
+        <!-- <section class="section css-structure" id="dynamicLink">
             <div class="sec-title">
                 <span class="icon fa fa-at"></span>
                 <h2>Steps to Create Dynamic Link</h2>
@@ -440,7 +444,7 @@
             </ol>
 
             <hr>
-        </section>
+        </section> -->
         <section class="section css-structure" id="notification">
             <div class="sec-title">
                 <span class="icon fa fa-at"></span>
@@ -574,7 +578,84 @@
             </ol>
             <hr>
         </section>
+        <section id="dynamicLinks">
+						<div class="container">
+							<h2>How to create dynamic links for share products from app?</h2>
+							<ol>
+								<li>Open your firebase console.</li>
+								<li>From left side pane go to engage section in that select Go to Dynamic Links.
+								</li>
+								<li>For creating a domain for the link, click on the Get Started button.</li>
+								<br>
+								<img src="images/link1.webp" alt="eGrocer"><br><br>
+								<li>Then, create a URL prefix. A URL prefix is a domain name that uses the dynamic
+									links.</li>
+								<li>Create a domain or use the google provided domain and press the continue button
+									as shown in image below. you can use yourappname.page.link which is unique and
+									available.you can also choose from below suggestion.</li>
+								<img src="images/link2.webp" alt="eGrocer">
+								<br><br>
+								<li>After that press continue and then verify.if your domain created successfully
+									then press finish button.</li>
 
+								<img src="images/link3.webp" alt="eGrocer"><br><br>
+								<li>Now copy your url prefix as shown below</li>
+								<img src="images/link4.webp" alt="eGrocer"><br><br>
+								<li>Paste in constant file</li>
+								<img src="images/link4.png" alt="eGrocer"><br><br>
+								<img src="images/link4.webp" alt="eGrocer"><br><br>
+								<li>Add your domain to allowlist url patter for activate the dynamic links for your
+									admin panel and app.</li>
+								<img src="images/link6.webp" alt="eGrocer"><br><br>
+								<li></li>
+								<img src="images/link7.webp" alt="eGrocer"><br><br>
+								<li></li>
+								<img src="images/link8.webp" alt="eGrocer"><br><br>
+								<li>Now for ios below step is needed</li>
+								<ul>In the Info tab of your iOS app's Xcode project:
+									<li>Create a new URL Type to be used for Dynamic Links.
+										Set the Identifier field to a unique value and the URL Schemes field to be
+										your bundle identifier, which is the default URL scheme used by Dynamic
+										Links.</li>
+									<br>
+									<img src="images/link9.webp" alt="eGrocer"><br><br>
+
+									<li>In the Capabilities tab of your app's Xcode project, enable Associated
+										Domains and add the following to the Associated Domains list:
+										applinks:YOUR_URL_PREFIX
+										Remember not to include https:// or any slashes or paths in your prefix</li>
+									<br>
+									<img src="images/link10.webp" alt="eGrocer"><br><br>
+								</ul>
+							</ol>
+
+							<p> </p>
+							<div class="section_bdr"></div>
+							
+						</div>
+					</section>
+      <section class="section css-structure" id="addMoreLanguage">
+            <div class="sec-title">
+                <span class="icon fa fa-at"></span>
+                <h2>Add More Language</h2>
+            </div>
+            <br>    
+            <ol>
+                <li>To add the language name and language code, you should go to the constant.dart file located in the utils folder. Once you have located the file, simply include the necessary language name and language code.
+                 <ol>   <a href="https://api.flutter.dev/flutter/flutter_localizations/GlobalMaterialLocalizations-class.html">GlobalMaterial support language </a></ol>
+                   
+                    <ol><a href="https://developers.google.com/admin-sdk/directory/v1/languages">Language Code</a></ol> <img src="images/AddLanguage1.png" alt="Video Plus" />
+                </li>
+
+            </ol> <ol>
+                <li>Please ensure to add a JSON file for the respective language, making sure that the file name corresponds to the language code. For instance, if the language code is "ur," the file name should be "ur.json".
+                    <img src="images/AddMoreLanguage2.png" alt="Video Plus" />
+                </li>
+
+            </ol>
+            <hr>
+        </section>
+        <hr class="divider">
 
       
 
